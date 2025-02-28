@@ -1,0 +1,18 @@
+name: greet-action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  greet:
+    name: "Test: Greet Action"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Run Greet Action
+        uses: ./
+        with:
+          name: "Safeer"
+          message: "Welcome to GitHub Actions!"
