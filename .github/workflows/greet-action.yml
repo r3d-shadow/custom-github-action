@@ -11,8 +11,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-        - name: Greet Action
-          uses: r3d-shadow/custom-github-action@1.0.1
+      - name: Greet Action
+        uses: r3d-shadow/custom-github-action@1.0.1
         with:
           name: "Safeer"
-          message: "Welcome to GitHub Actions!"
+          message: "Testing the Released GitHub Action!"
