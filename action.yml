@@ -1,0 +1,22 @@
+name: "Greet Action"
+description: "A GitHub Action that prints a personalized greeting message."
+author: "Safeer S"
+
+branding:  
+  icon: "activity"  
+  color: "blue"   
+
+inputs:  
+  message:  
+    description: "The message to display in logs"  
+    required: true  
+  name:  
+    description: "The recipient's name."
+    required: true  
+
+runs:  
+  using: "docker"  
+  image: "Dockerfile"
+  args:  
+    - ${{ inputs.name }}
+    - ${{ inputs.message }}
