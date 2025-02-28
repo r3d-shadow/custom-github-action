@@ -98,41 +98,41 @@ This workflow tests the Greet Action by invoking it with predefined inputs by us
 
 Go to GitHub Actions, select "Greet Action," and click "Run Workflow."
 
-![/blogs/6/1.png](/blogs/6/1.png)
+![/assets/1.png](/assets/1.png)
 
 After execution, navigate to the logs to verify the output message.
 
-![/blogs/6/2.png](/blogs/6/2.png)
+![/assets/2.png](/assets/2.png)
 
 ## Step 2: Publishing to the GitHub Marketplace
 
 To make the Action publicly available, open [GitHub Marketplace](https://github.com/marketplace) and select **"Create a new extension."**
 
-![/blogs/6/3.png](/blogs/6/3.png)
+![/assets/3.png](/assets/3.png)
 
 Choose the action created earlier and click **"Publish Action."**
 
-![/blogs/6/4.png](/blogs/6/4.png)
+![/assets/4.png](/assets/4.png)
 
 Draft a new release
 
-![/blogs/6/5.png](/blogs/6/5.png)
+![/assets/5.png](/assets/5.png)
 
 Check the **"Publish this release to GitHub Marketplace"** option, ensure all requirements are met, select appropriate categories, and proceed with publishing.
 
-![/blogs/6/6.png](/blogs/6/6.png)
+![/assets/6.png](/assets/6.png)
 
 Before that, accept the **GitHub Marketplace Developer Agreement.**
 
-![/blogs/6/7.png](/blogs/6/7.png)
+![/assets/7.png](/assets/7.png)
 
 After publishing, the release page will display a **Marketplace** label.
 
-![/blogs/6/8.png](/blogs/6/8.png)
+![/assets/8.png](/assets/8.png)
 
 Click on it to view the listed action in GitHub Marketplace.
 
-![/blogs/6/9.png](/blogs/6/9.png)
+![/assets/9.png](/assets/9.png)
 
 ### Testing the Published Action
 
@@ -158,4 +158,4 @@ jobs:
 
 Trigger the workflow from the **Actions** tab, select **"Greet Action,"** and manually start it. Once it runs, review the logs to confirm the expected output message.
 
-![/blogs/6/10.png](/blogs/6/10.png)
+![/assets/10.png](/assets/10.png)
